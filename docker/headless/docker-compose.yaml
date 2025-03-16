@@ -4,7 +4,7 @@
 services:
   p2g:
     container_name: p2g
-    image: philosowaffle/peloton-to-garmin:console-stable
+    image: philosowaffle/peloton-to-garmin:console-v4
     user: :p2g
     environment:
       - TZ=America/Chicago
